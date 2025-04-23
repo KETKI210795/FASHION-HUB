@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Hub - Stylish Sandals</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1589034017456-9d1a52f66b1f') center/cover no-repeat;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            background-color: rgba(0,0,0,0.5);
+            padding: 20px;
+        }
+
+        .section {
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .feature-card {
+            flex: 1 1 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .feature-card .info {
+            padding: 20px;
+        }
+
+        .feature-card .info h3 {
+            margin: 0 0 10px;
+            font-size: 22px;
+        }
+
+        .contact, .about {
+            background-color: #fafafa;
+            padding: 40px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fashion Hub</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Step Into Style with Our Trendy Sandals</h2>
+</section>
+
+<section class="section">
+    <h2>Featured Sandals</h2>
+    <div class="features">
+        <div class="feature-card">
+            <img src="Elegant Sandals.jpg" alt="Elegant Sandals">
+            <div class="info">
+                <h3>Elegant Heels</h3>
+                <p>Perfect for evening wear with premium design and comfort.</p>
+            </div>
+          </div>
+        <div class="feature-card">
+            <img src="Casual Sandals.jpg" alt="Casual Sandals">
+            <div class="info">
+                <h3>Casual Comfort</h3>
+                <p>Everyday wear made stylish and easy on your feet.</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <img src="Stylish Sandals.jpg" alt="Stylish Sandals">
+            <div class="info">
+                <h3> Unique comfort</h3>
+                <p>unique sandals you to be your fashion icon.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section about">
+    <h2>About Us</h2>
+    <p>Welcome to Fashion Hub ? your destination for stylish, comfortable, and affordable footwear. Our passion for fashion drives us to provide the latest sandal trends, crafted with quality and care for every step you take.</p>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p> Phone: 98256253525</p>
+    <p> Email: contact@fashionhub.com</p>
+    <p> Address: 123 Fashion Street, Style City, NY</p>
+</section>
+
+<footer>
+    &copy; 2025 Fashion Hub. All Rights Reserved.
+</footer>
+
+</body>
+</html>
